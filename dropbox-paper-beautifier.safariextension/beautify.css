@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "el-normal";
+    src: local(Ubuntu),
+         local("Segoe UI"),
+         local("Helvetica Neue"),
+         local(Helvetica),
+         local(Arial),
+         local("PingFang SC"),
+         local("Hiragino Sans GB"),
+         local("Heiti SC"),
+         local("WenQuanYi Micro Hei"),
+         local("Microsoft YaHei"),
+         local(sans-serif);
+}
+
+@font-face {
+    font-family: "el-italic";
+    src: local(Ubuntu-Italic),
+         local("Segoe UI Italic"),
+         local("Helvetica Neue Italic"),
+         local(Helvetica-Italic),
+         local(Arial-Italic),
+         local("PingFang SC"),
+         local("Hiragino Sans GB"),
+         local("Heiti SC"),
+         local("WenQuanYi Micro Hei"),
+         local("Microsoft YaHei"),
+         local(sans-serif);
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > div.ace-line:not(.line-list-type-bullet, .line-list-type-number, .line-list-type-task, .line-list-type-quote, .line-list-type-code, .line-manager-type-aceTable) + div.ace-line:not(.line-manager-type-aceTable) {
+    margin-top: 1em !important;
+}
+
+.ace-table-wrapper-outer {
+    margin-top: 0 !important;
+}
+
+.ace-editor div.ace-table-wrapper div.ace-line {
+    margin-bottom: 0 !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > div.ace-line.line-list-type-bullet + :not(.ace-editor div.ace-line.line-list-type-bullet) {
+    margin-top: 1em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > div.ace-line.line-list-type-number + :not(.ace-editor div.ace-line.line-list-type-number) {
+    margin-top: 1em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > div.ace-line.line-list-type-task + :not(.ace-editor div.ace-line.line-list-type-task) {
+    margin-top: 1em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > div.ace-line.line-list-type-quote + :not(.ace-editor div.ace-line.line-list-type-quote) {
+    margin-top: 1em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > div.ace-line.line-list-type-code + :not(.ace-editor div.ace-line.line-list-type-code) {
+    margin-top: 1em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ul {
+    margin-left: 0 !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ul.listindent1,
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ol.listindent1 {
+    margin-left: 0 !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ul.listindent2,
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ol.listindent2 {
+    margin-left: 1.5em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ul.listindent3,
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ol.listindent3 {
+    margin-left: 3em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ul.listindent4,
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ol.listindent4 {
+    margin-left: 4.5em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ul.listindent5,
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ol.listindent5 {
+    margin-left: 6em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ul.listindent6,
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ol.listindent6 {
+    margin-left: 7.5em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ul.listindent7,
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ol.listindent7 {
+    margin-left: 9em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ul.listindent8,
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ol.listindent8 {
+    margin-left: 10.5em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > .ace-line:not(.ace-rtl) > ol.listtype-number > li {
+    padding-left: 0 !important;
+}
+
+.ace-feature-bigtitle > .ace-editor > div:first-child {
+    font-family: el-normal !important;
+}
+
+.ace-editor {
+    font-family: el-normal !important;
+}
+
+ul.listtype-quote li {
+    font-family: el-italic !important;
+    font-style: normal !important;
+}
