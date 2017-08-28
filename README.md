@@ -2,6 +2,11 @@
 
 Better typesetting for Dropbox Paper.
 
+## Installation
+
+* Safari: [Download](https://github.com/Elethom/DropboxPaperBeautifier/releases/download/0.1/dropbox-paper-beautifier.safariextz)
+* Chrome: [Go to Web Store](https://chrome.google.com/webstore/detail/dropbox-paper-beautifier/mfbeblgicdmmnkkllkiikdmpgmialedj)
+
 ## Features
 
 * Change default font fallback
