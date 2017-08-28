@@ -14,6 +14,8 @@ Better typesetting for Dropbox Paper.
 * Remove left margin for lists and blockquote
 * Use normal CJK fonts instead of oblique ones in blockquote
 
+![Preview](/previews/format.png)
+
 ## License
 
 This project is released under the terms and conditions of the [MIT license](http://opensource.org/licenses/MIT). See [LICENSE](/LICENSE) for details.
