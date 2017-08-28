@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Dropbox Paper Beautifier",
+  "description": "Better typesetting for Dropbox Paper.",
+  "version": "0.1",
+  "icons": {
+    "256": "Icon.png"
+  },
+
+  "content_scripts": [{
+    "css": ["beautify.css"],
+    "matches": ["https://paper.dropbox.com/*"]
+  }]
+}
