@@ -1,12 +1,15 @@
 @font-face {
     font-family: "el-normal";
     src: local(Ubuntu),
+         local(Roboto),
          local("Segoe UI"),
          local("Helvetica Neue"),
          local(Helvetica),
          local(Arial),
          local("PingFang SC"),
          local("Hiragino Sans GB"),
+         local("Noto Sans"),
+         local("Noto Sans CJK SC"),
          local("Heiti SC"),
          local("WenQuanYi Micro Hei"),
          local("Microsoft YaHei"),
@@ -16,12 +19,15 @@
 @font-face {
     font-family: "el-italic";
     src: local(Ubuntu-Italic),
+         local(Roboto-Italic),
          local("Segoe UI Italic"),
          local("Helvetica Neue Italic"),
          local(Helvetica-Italic),
          local(Arial-Italic),
          local("PingFang SC"),
          local("Hiragino Sans GB"),
+         local("Noto Sans"),
+         local("Noto Sans CJK SC"),
          local("Heiti SC"),
          local("WenQuanYi Micro Hei"),
          local("Microsoft YaHei"),
