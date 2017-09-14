@@ -3,7 +3,7 @@
 
   "name": "Dropbox Paper Beautifier",
   "description": "Better typesetting for Dropbox Paper.",
-  "version": "0.1",
+  "version": "0.1.1",
   "icons": {
     "256": "Icon.png"
   },
