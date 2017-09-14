@@ -34,7 +34,7 @@
          local(sans-serif);
 }
 
-div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > div.ace-line:not(.line-list-type-bullet, .line-list-type-number, .line-list-type-task, .line-list-type-quote, .line-list-type-code, .line-manager-type-aceTable) + div.ace-line:not(.line-manager-type-aceTable) {
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > div.ace-line:not(.line-list-type-bullet, .line-list-type-number, .line-list-type-task, .line-list-type-taskdone, .line-list-type-quote, .line-list-type-code, .line-manager-type-aceTable) + div.ace-line:not(.line-manager-type-aceTable) {
     margin-top: 1em !important;
 }
 
@@ -54,7 +54,11 @@ div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > div.ace-line.line-lis
     margin-top: 1em !important;
 }
 
-div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > div.ace-line.line-list-type-task + :not(.ace-editor div.ace-line.line-list-type-task) {
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > div.ace-line.line-list-type-task + :not(.ace-editor div.ace-line.line-list-type-task, .ace-editor div.ace-line.line-list-type-taskdone) {
+    margin-top: 1em !important;
+}
+
+div:not(.inner-zone-ace-editor-wrapper) > div.ace-editor > div.ace-line.line-list-type-taskdone + :not(.ace-editor div.ace-line.line-list-type-task, .ace-editor div.ace-line.line-list-type-taskdone) {
     margin-top: 1em !important;
 }
 
